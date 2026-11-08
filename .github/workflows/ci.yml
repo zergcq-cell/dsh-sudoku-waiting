@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Test (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Run logic tests
+        run: npm test
+
+      - name: Build the client bundle
+        run: npm run build
+
+      - name: Check the committed bundle is reproducible
+        run: git diff --exit-code -- client.js
+
+      - name: Check the npm package contents
+        run: npm pack --dry-run

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Games while waiting",
+    "description": "Shows a resumable game (Sudoku, 2048, Minesweeper, Lights Out) in the conversation while DeepSeek is thinking."
+  }
+}

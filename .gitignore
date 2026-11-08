@@ -1,0 +1,7 @@
+node_modules/
+publish/
+.npm-cache/
+.npmrc-publish
+.preview/
+*.tgz
+.DS_Store

@@ -1,0 +1,3 @@
+- insert:
+    - id: sudoku-waiting
+      name: dsh-sudoku-waiting
