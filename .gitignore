@@ -5,3 +5,9 @@ publish/
 .preview/
 *.tgz
 .DS_Store
+
+.dsh-test/
+.npm-token*
+
+.pnpm-store/
+.npm-auth-done.json
