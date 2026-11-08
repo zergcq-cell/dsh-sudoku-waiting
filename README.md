@@ -19,6 +19,13 @@
 > 这是一个社区插件，不是 DeepSeek Harness 官方插件。
 > This is a community plugin, not an official DeepSeek Harness bundle.
 
+<p align="center">
+  <a href="https://raw.githubusercontent.com/zergcq-cell/dsh-sudoku-waiting/main/docs/preview.png"><img src="https://raw.githubusercontent.com/zergcq-cell/dsh-sudoku-waiting/main/docs/preview.png" width="380" alt="Inline waiting-game card with a Sudoku board" /></a>
+  <a href="https://raw.githubusercontent.com/zergcq-cell/dsh-sudoku-waiting/main/docs/preview-pad.png"><img src="https://raw.githubusercontent.com/zergcq-cell/dsh-sudoku-waiting/main/docs/preview-pad.png" width="380" alt="Sudoku digit pad opened on an empty cell" /></a>
+</p>
+
+<p align="center"><sub>界面预览（独立渲染，深色主题）：内联卡片 / 数字选择板。Interface previews rendered in isolation with the host dark theme.</sub></p>
+
 ## 为什么是它 / Why this one
 
 - **不盖住会话**：游戏卡片在对话流的最新位置，宽度上限 336px，和思考日志一起滚动，不是浮层。
