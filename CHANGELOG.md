@@ -4,15 +4,6 @@ All notable changes to this plugin are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
 [Semantic Versioning](https://semver.org/).
 
-## [1.1.1] — 2026-11-08
-
-Documentation-only patch for the first public release.
-
-### Fixed
-
-- Removed the pre-release npm authorization note from the README now that
-  `dsh-sudoku-waiting@1.1.0` is published.
-
 ## [1.1.0] — 2026-11-08
 
 First public release.

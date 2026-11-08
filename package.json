@@ -1,6 +1,6 @@
 {
   "name": "dsh-sudoku-waiting",
-  "version": "1.1.1",
+  "version": "1.1.0",
   "description": "Resumable waiting games (Sudoku, 2048, Minesweeper, Lights Out) shown inline in the conversation while DeepSeek is thinking.",
   "type": "module",
   "license": "MIT",
